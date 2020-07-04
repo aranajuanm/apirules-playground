@@ -8,7 +8,7 @@
 
 ## How to
 
-> Add your rule in test.conf
+> Add your rule in conf/test.conf
 
 > Connect to the VPN
 

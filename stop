@@ -1,0 +1,2 @@
+docker stop apirules-playground
+docker rm apirules-playground

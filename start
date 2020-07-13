@@ -1,2 +1,2 @@
 ./stop
-docker run  -d -p 8080:80 --name apirules-playground -v ${PWD}/conf/nginx.conf:/etc/nginx/nginx.conf:ro -v ${PWD}/conf:/etc/nginx/locations:ro nginx
+docker run  -d -p 8080:80 --name apirules-playground -v ${PWD}/nginx.conf:/etc/nginx/nginx.conf:ro -v ${PWD}/conf:/etc/nginx/locations:ro nginx
